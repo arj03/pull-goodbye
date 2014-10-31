@@ -34,7 +34,7 @@ var pushable = require('pull-pushable')
             t.deepEqual(value, [1,2,3,4,5])
             t.end()
           })
-        }, 'GOODBYE')
+        })
       }
     })
 
