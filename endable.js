@@ -1,6 +1,5 @@
 
 module.exports = function endable (goodbye) {
-  goodbye = goodbye || "GOODBYE"
   var ended, waiting, sentEnd
   function h (read) {
     return function (abort, cb) {

@@ -2,7 +2,7 @@
 var endable = require('./endable')
 var pull = require('pull-stream')
 module.exports = function (stream, goodbye) {
-
+  goodbye = goodbye || 'GOODBYE'
   var e = endable(goodbye)
 
   return {
