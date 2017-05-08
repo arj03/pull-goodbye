@@ -7,8 +7,14 @@
     "type": "git",
     "url": "git://github.com/dominictarr/pull-goodbye.git"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "pull-stream": "~3.5.0"
+  },
+  "devDependencies": {
+    "muxrpc": "^2.1.0",
+    "pull-pushable": "^2.0.1",
+    "tape": "^4.6.3"
+  },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
