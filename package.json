@@ -13,7 +13,7 @@
   "devDependencies": {
     "muxrpc": "^2.1.0",
     "pull-pushable": "^2.0.1",
-    "tape": "^4.6.3"
+    "tape": "^5.5.2"
   },
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
