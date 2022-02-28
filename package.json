@@ -8,7 +8,7 @@
     "url": "git://github.com/dominictarr/pull-goodbye.git"
   },
   "dependencies": {
-    "pull-stream": "~3.5.0"
+    "pull-stream": "^3.6.14"
   },
   "devDependencies": {
     "muxrpc": "^2.1.0",
